@@ -1,0 +1,23 @@
+/*========================*\
+|  ID: tanishqbhargava1    |
+|  LANG: C++               |
+\*========================*/
+//Tanishq Bhargava
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int N, u, v;
+    cin >> N;
+    std::vector< pair<int,int> > V;
+    for(int i = 0; i < N; i++)
+    {
+        cin >> u >> v;
+        V.push_back(make_pair(u + v, i + 1));
+    }
+    sort(V.begin(),V.end());
+    for(int i = 0; i < V.size(); i++)
+        cout << V[i].second << " ";
+    return 0;
+}

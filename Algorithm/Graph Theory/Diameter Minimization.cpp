@@ -44,5 +44,5 @@ int main()
     cout << mmh << endl;
     for (i = 0; i < n; i++, puts(""))
         for (j = 0; j < m; j++) 
-            cout << (i*m+j)%n << " ";
+            cout << (i * m + j) % n << " ";
 }

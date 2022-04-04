@@ -2,6 +2,7 @@
 #include <bitset>
 #include <bits/stdc++.h>
 #include <cassert>
+#include <cctype>
 #include <cstdio>
 #include <cmath>
 #include <complex>
@@ -12,10 +13,12 @@
 #include <functional>
 #include <iostream>
 #include <iomanip>
+#include <iterator>
 #include <list>
 #include <locale>
 #include <math.h>
 #include <map>
+#include <memory.h>
 #include <numeric>
 #include <queue>
 #include <set>
@@ -23,5 +26,6 @@
 #include <stack>
 #include <stdio.h>
 #include <string>
+#include <time.h>
 #include <utility>
 #include <vector>
